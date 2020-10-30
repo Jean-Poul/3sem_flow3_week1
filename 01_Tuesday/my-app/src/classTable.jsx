@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 
 
 class ClassTable extends React.Component {
-  constructor(probs){
-    super(probs);
+  constructor(props){
+    super(props);
   }
     render() {
         return (
@@ -13,7 +13,7 @@ class ClassTable extends React.Component {
               <th>First name</th>
               <th>Last Name</th>
             </tr>
-            {probs.names && this.props.names.map((el) => (
+            {props.names && this.props.names.map((el) => (
               <tr>
                 <td>{el.fname}</td>
                 <td>{el.lname}</td>
