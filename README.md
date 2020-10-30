@@ -1,10 +1,9 @@
-# 3 semester, flow 2, week 2
+# 3 semester, flow 3, week 1
 -------------------------------------------------------------------------------------------------
 ### Overview
-  - flow2 week2 tuesday exercise
-  - flow2 week2 wednesday exercise
-  - flow2 week2 thursday exercise
-  - flow2 week2 friday exercise
+  - flow2 week1 tuesday exercise
+  - flow2 week1 wednesday exercise
+  - flow2 week1 thursday and friday exercises
 -------------------------------------------------------------------------------------------------
 
 ##### NOTE: 
