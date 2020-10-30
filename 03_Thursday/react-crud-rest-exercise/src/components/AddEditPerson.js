@@ -1,23 +1,22 @@
 import React, { useState } from "react";
 
 export default function AddEditPerson(props) {
+ 
   const [person, setPerson] = useState({ ...props.newPerson });
 
   /* Add the required changes to use Reacts "Controlled Component Pattern" 
      to handle inputs related to a person */
   const handleChange = (evt) => {
-        const target = evt.target;
-        const id = target.id;
-        const value = target.value;
-        setPerson({ ...person, [id]: value })
-        console.log("person"+person);
+    const target = evt.target;
+    const id = target.id;
+    const value = target.value;
+    setPerson({ ...person, [id]: value })
   }
 
   const handleSubmit = (evt) => {
-        evt.preventDefault();
-        window.alert(JSON.stringify(person))
-        setPerson(person);
-        console.log("HANDLESUB"+JSON.stringify(person));
+    evt.preventDefault();
+    console.log("AddEditPerson: " + JSON.stringify(person))
+    props.addEditPerson(person);
   }
 
   return (
@@ -81,7 +80,7 @@ export default function AddEditPerson(props) {
         </div>
         <div className="form-group">
           <div className="col-sm-offset-3 col-sm-9">
-            <button type="submit" className="btn btn-primary" onClick={handleSubmit}>
+            <button type="submit" className="btn btn-primary">
               Submit
             </button>
             <button

@@ -7,22 +7,27 @@ function App({apiFacade}) {
   const emptyPerson = { id: "", age: "", name: "", email: "", gender: "" };
   const [personToAddEdit, setPersonToAddEdit] = useState(emptyPerson);
   const [persons, setPersons] = useState([]);
-
+  
   useEffect(() => {
     //Change the callback to populate table (rather than just console logging)
-    apiFacade.getPersons((data)=>{console.log('DATA:', data); setPersons(data); storeAddEditPerson();});
+    apiFacade.getPersons(setPersons);
   },[]);
 
   const storeAddEditPerson = (person) => {
     //Call this from the AddEditPerson control with the person to Add or Edit and Add/Edit via the apiFacade
-    apiFacade.addEditPerson((data)=>{console.log('AddEdit:', data); setPersonToAddEdit(person)});
+    console.log("App: " + JSON.stringify(person));
+    apiFacade.addEditPerson(person);
+    apiFacade.getPersons(setPersons);
   }
 
   const deletePerson = (id) => {
     //Call this from the AllPerson control with the id for the person to delete
+    apiFacade.deletePerson(id);
+    apiFacade.getPersons(setPersons);
   }
 
   const editPerson = (person) => {
+    setPersonToAddEdit({...person});
     //Call thisfrom the AllPerson control with the  person to edit
     //Set the state variable personToAddEdit with this person (a clone) to make the new value flow down via props
   }
@@ -45,12 +50,12 @@ function App({apiFacade}) {
           <AddEditPerson
             newPerson={personToAddEdit}
             //  Next two lines, are if you decide to use the pattern introduced in the day-2 exercises
-           // addEditPerson={storeAddEditPerson}
-            //key={personToAddEdit.id}
+            addEditPerson={storeAddEditPerson}
+            key={personToAddEdit.id}
           />
         </div>
       </div>
     </div>
   );
-  }
+}
 export default App;
