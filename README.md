@@ -7,32 +7,25 @@
 -------------------------------------------------------------------------------------------------
 
 ##### NOTE: 
-- Deployed cors project to show all users https://www.jplm.dk/cors/api/person/all
-- Other REST endpoints are /count /{id} (GET)
-- One can also update and delete on a given id
-
-- Surge deployment of friday red assignment https://corswithjava.surge.sh/
+- NOTER
 
 ###### Tuesday: 
-- Javascript callbacks <br/>
+- OVERSKRIFT <br/>
 https://github.com/Jean-Poul/3sem_flow2_week2/tree/main/01_Tuesday <br/>
-- Some parts of the assignment can be shown in HTML
-- If you want to see them uncomment them in the JavaScript file and see the HTML file Tuesday.html
+- 
 
 ###### Wednesday: 
-- Fetch and Promises, Error handling and async-await <br/>
+- OVERSKRIFT <br/>
 https://github.com/Jean-Poul/3sem_flow2_week2/tree/main/02_Wednesday <br/>
-
+-
 
 ###### Thursday: 
-- CORS and SPA <br/>
+- OVERSKRIFT <br/>
 https://github.com/Jean-Poul/3sem_flow2_week2/tree/main/03_Thursday <br/>
-- Postman file added to test endpoints
-- Header picture added to show CORS
+- 
 
 ###### Friday: 
-- Part-2 Exam preparation <br/>
+- OVERSKRIFT <br/>
 https://github.com/Jean-Poul/3sem_flow2_week2/tree/main/04_Friday <br/>
-- Wordfile/pdf added for written assignment
-- Header picture added to show CORS
+- 
 
