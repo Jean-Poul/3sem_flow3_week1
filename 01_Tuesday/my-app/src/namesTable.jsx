@@ -1,14 +1,14 @@
 //const names = [{'fname':'Anders','lname':'Henriksen'},{'fname':'Britta','lname':'Albertsen'},{'fname':'Kalle','lname':'Fredborg'}];
 
 
-const MyTable = (probs) => {
+const MyTable = (props) => {
         return (
 <table>
         <tr>
                 <th>First name</th>
                 <th>Last Name</th>
                 </tr>
-        {probs.names && probs.names.map(el => 
+        {props.names && props.names.map(el => 
                 <tr>
                 <td>{el.fname}</td>
                 <td>{el.lname}</td>
