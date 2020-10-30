@@ -3,29 +3,30 @@
 ### Overview
   - flow3 week1 tuesday exercise
   - flow3 week1 wednesday exercise
-  - flow3 week1 thursday and friday exercises
+  - flow3 week1 thursday exercise
+  - flow3 week1 friday exercise
 -------------------------------------------------------------------------------------------------
 
 ##### NOTE: 
-- NOTER
+- Se nederst for at se alle svar til ugens afleveringer
 
 ###### Tuesday: 
-- OVERSKRIFT <br/>
-https://github.com/Jean-Poul/3sem_flow2_week2/tree/main/01_Tuesday <br/>
+- Single Page Application with React <br/>
+https://github.com/Jean-Poul/3sem_flow3_week1/tree/main/01_Tuesday<br/>
 - 
 
 ###### Wednesday: 
-- OVERSKRIFT <br/>
-https://github.com/Jean-Poul/3sem_flow2_week2/tree/main/02_Wednesday <br/>
+- React continued <br/>
+https://github.com/Jean-Poul/3sem_flow3_week1/tree/main/02_Wednesday/day2_ex <br/>
 -
 
 ###### Thursday: 
-- OVERSKRIFT <br/>
-https://github.com/Jean-Poul/3sem_flow2_week2/tree/main/03_Thursday <br/>
+- React with forms, fetch, Promises and async-await <br/>
+https://github.com/Jean-Poul/3sem_flow3_week1/tree/main/03_Thursday <br/>
 - 
 
 ###### Friday: 
-- OVERSKRIFT <br/>
-https://github.com/Jean-Poul/3sem_flow2_week2/tree/main/04_Friday <br/>
+- React with forms, fetch, Promises and async-await <br/>
+Continued work from thursday assignments <br/>
 - 
 
